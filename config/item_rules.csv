@@ -1,0 +1,5 @@
+pattern,match_type,rule_type,multiplier_override,notes
+Chafer Kit Rental,exact,skip,,Rental line item - not a recipe
+Pasta Tray,startswith,per_event,,Invoice qty is the guest count; one tray setup per event
+Dinner Rolls,startswith,dozen_count,,Invoice qty is in dozens
+Cookie Box,startswith,individual_count,,Invoice qty is single cookies
